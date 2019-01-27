@@ -1,0 +1,1 @@
+for filename in *.txt; do split -l 100000 -d --additional-suffix=.txt $filename smallerfiles ; done
